@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ECF4D6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.title-text {
+    font-family: 'Silkscreen', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -250px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #265073;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 75px auto;
+    font-family: 'Silkscreen', sans-serif;
+    color: #265073;
+}
+
+p {
+    line-height: 2;
+}
+
+.title-text > p {
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.title-image {
+    border-radius: 50%;
+    box-shadow: 10px 5px 20px 2px grey;
+}
+
+.img-bottom {
+    position: absolute;
+    top: 61.5%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    margin: 0 auto;
+}
+
+.row-middle {
+    text-align: center;
+    margin: auto;
+    width: 30%;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+}
+
+.middle-container {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1.5fr 1.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+ul {
+    list-style: none;
+}
+
+.middle-container-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.middle-container-title > h2 {
+    margin: 20px 0px;
+}
+
+.middle-container-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.middle-container-text > ul > li > ul {
+    padding: 0;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-item-2 {
+    grid-row: span 3;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.about-me-text {
+    text-align: center;
+    width: 50%;
+}
+
+.ul {
+    padding: 0;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-me-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 35px 0;
+}
+
+.contact-me-text > ul {
+    padding: 0;
+}
+
+footer {
+    background-color: #2D9596;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+@media (max-width: 957px) {
+    .middle-container {
+        grid-template-columns: 1.5fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .row-middle {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+/*https://colorhunt.co/palette/ecf4d69ad0c22d9596265073*/
